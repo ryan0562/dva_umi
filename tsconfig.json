@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "node",
     "importHelpers": true,
-    "jsx": "react-jsx",
+    "jsx": "react-native",
     "esModuleInterop": true,
     "sourceMap": true,
     "baseUrl": "./",
@@ -13,7 +13,8 @@
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
     },
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true, // js识别
   },
   "include": [
     "mock/**/*",
