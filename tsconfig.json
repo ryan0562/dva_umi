@@ -4,7 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "importHelpers": true,
-    "jsx": "react-native",
+    "jsx": "react-jsx",
     "esModuleInterop": true,
     "sourceMap": true,
     "baseUrl": "./",
@@ -14,7 +14,7 @@
       "@@/*": ["src/.umi/*"]
     },
     "allowSyntheticDefaultImports": true,
-    "allowJs": true, // js识别
+    "allowJs": true // js识别
   },
   "include": [
     "mock/**/*",
